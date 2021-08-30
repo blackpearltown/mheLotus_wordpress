@@ -3,7 +3,15 @@
 <section>
     <div class="home-banner">
         <div id="banner" class="banner-slick">
-            <?php echo do_shortcode('[slick-slider design="prodesign-10" show_title="false" image_size="full" dots="false" arrows="false" limit="5" orderby="ID" order="asc" category="68"]'); ?>
+            <div class="normal_banner">
+                <?php echo do_shortcode('[slick-slider design="prodesign-10" show_title="false" image_size="full" dots="false" arrows="false" limit="5" orderby="ID" order="asc" category="68"]'); ?>
+            </div>
+            <div class="tablet_banner">
+                <?php echo do_shortcode('[slick-slider design="prodesign-10" show_title="false" image_size="full" dots="false" arrows="false" limit="5" orderby="ID" order="asc" category="104"]') ?>
+            </div>
+            <div class="smartphone_banner">
+                <?php echo do_shortcode('[slick-slider design="prodesign-10" show_title="false" image_size="full" dots="false" arrows="false" limit="5" orderby="ID" order="asc" category="103"]') ?>
+            </div>
         </div>
 </section>
 
