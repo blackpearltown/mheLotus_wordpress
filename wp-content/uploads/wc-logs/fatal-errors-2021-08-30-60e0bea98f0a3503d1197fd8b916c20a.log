@@ -1,0 +1,938 @@
+2021-08-30T01:12:10+00:00 CRITICAL Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in C:\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php:16
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php(16): in_array('http://localhos...', NULL)
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(301): SpeedBooster\SBP_Warmup_Process->task(Array)
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(175): WP_Background_Process->handle()
+#3 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): WP_Background_Process->maybe_handle('')
+#4 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(202): do_action('wp_ajax_nopriv_...')
+#7 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php on line 16
+
+2021-08-30T01:15:47+00:00 CRITICAL Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in C:\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php:16
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php(16): in_array('http://localhos...', NULL)
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(301): SpeedBooster\SBP_Warmup_Process->task(Array)
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(449): WP_Background_Process->handle()
+#3 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#4 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\wordpress\wp-cron.php(138): do_action_ref_array('wp_warmup_cron', Array)
+#7 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php on line 16
+
+2021-08-30T01:21:48+00:00 CRITICAL Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in C:\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php:16
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php(16): in_array('http://localhos...', NULL)
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(301): SpeedBooster\SBP_Warmup_Process->task(Array)
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(449): WP_Background_Process->handle()
+#3 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#4 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\wordpress\wp-cron.php(138): do_action_ref_array('wp_warmup_cron', Array)
+#7 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php on line 16
+
+2021-08-30T01:24:04+00:00 CRITICAL Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in C:\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php:16
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php(16): in_array('http://localhos...', NULL)
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(301): SpeedBooster\SBP_Warmup_Process->task(Array)
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(175): WP_Background_Process->handle()
+#3 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): WP_Background_Process->maybe_handle('')
+#4 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(187): do_action('wp_ajax_wp_warm...')
+#7 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php on line 16
+
+2021-08-30T01:26:07+00:00 CRITICAL Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in C:\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php:16
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php(16): in_array('http://localhos...', NULL)
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(301): SpeedBooster\SBP_Warmup_Process->task(Array)
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(449): WP_Background_Process->handle()
+#3 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#4 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\wordpress\wp-cron.php(138): do_action_ref_array('wp_warmup_cron', Array)
+#7 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php on line 16
+
+2021-08-30T01:30:57+00:00 CRITICAL Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in C:\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php:16
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php(16): in_array('http://localhos...', NULL)
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(301): SpeedBooster\SBP_Warmup_Process->task(Array)
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(449): WP_Background_Process->handle()
+#3 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#4 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\wordpress\wp-cron.php(138): do_action_ref_array('wp_warmup_cron', Array)
+#7 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php on line 16
+
+2021-08-30T01:35:42+00:00 CRITICAL Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in C:\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php:16
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php(16): in_array('http://localhos...', NULL)
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(301): SpeedBooster\SBP_Warmup_Process->task(Array)
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(449): WP_Background_Process->handle()
+#3 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#4 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\wordpress\wp-cron.php(138): do_action_ref_array('wp_warmup_cron', Array)
+#7 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php on line 16
+
+2021-08-30T01:40:35+00:00 CRITICAL Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in C:\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php:16
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php(16): in_array('http://localhos...', NULL)
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(301): SpeedBooster\SBP_Warmup_Process->task(Array)
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(449): WP_Background_Process->handle()
+#3 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#4 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\wordpress\wp-cron.php(138): do_action_ref_array('wp_warmup_cron', Array)
+#7 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php on line 16
+
+2021-08-30T02:14:28+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\wp-db.php on line 2056
+
+2021-08-30T02:19:01+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Database error. in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php:85
+Stack trace:
+#0 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_ActionFactory.php(177): ActionScheduler_DBStore->save_action(Object(ActionScheduler_Action))
+#1 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#2 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\functions.php(36): ActionScheduler_ActionFactory->single('wc-admin_import...', Array, 1630289945, 'wc-admin-data')
+#3 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\queue\class-wc-action-queue.php(44): as_schedule_single_action(1630289945, 'wc-admin_import...', Array, 'wc-admin-data')
+#4 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Schedulers\SchedulerTraits.php(311): WC_Action_Queue->schedule_single(1630289945, 'wc-admin_import...', Array, 'wc-admin-data')
+#5 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Schedulers\CustomersScheduler.php(138): Automattic\WooCommerce\Admin\Schedulers\ImportScheduler::schedule_action('import', Array)
+#6 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Schedulers\CustomersScheduler.php(151): Automattic\WooCommerce\Admin\Schedulers\CustomersScheduler::schedule_import(1)
+#7 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(305): Automattic\WooCommerce\Admin\Schedulers\CustomersScheduler::schedule_import_via_last_active('22', 1, 'wc_last_active')
+#8 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#9 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#10 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\meta.php(292): do_action('updated_user_me...', '22', 1, 'wc_last_active', '1630281600')
+#11 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\user.php(1049): update_metadata('user', 1, 'wc_last_active', '1630281600', '')
+#12 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-user-functions.php(901): update_user_meta(1, 'wc_last_active', '1630281600')
+#13 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-user-functions.php(873): wc_update_user_last_active(1)
+#14 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): wc_user_logged_in('tranngocminh162...', Object(WP_User))
+#15 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#16 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#17 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\user.php(110): do_action('wp_login', 'tranngocminh162...', Object(WP_User))
+#18 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-login.php(1142): wp_signon(Array, false)
+#19 {main}
+  thrown in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php on line 85
+
+2021-08-30T02:23:13+00:00 CRITICAL Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php:16
+Stack trace:
+#0 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php(16): in_array('http://localhos...', NULL)
+#1 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(301): SpeedBooster\SBP_Warmup_Process->task(Array)
+#2 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(175): WP_Background_Process->handle()
+#3 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): WP_Background_Process->maybe_handle('')
+#4 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#6 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(187): do_action('wp_ajax_wp_warm...')
+#7 {main}
+  thrown in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php on line 16
+
+2021-08-30T02:36:39+00:00 CRITICAL Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php:16
+Stack trace:
+#0 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php(16): in_array('http://localhos...', NULL)
+#1 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(301): SpeedBooster\SBP_Warmup_Process->task(Array)
+#2 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(449): WP_Background_Process->handle()
+#3 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#4 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#6 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-cron.php(138): do_action_ref_array('wp_warmup_cron', Array)
+#7 {main}
+  thrown in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php on line 16
+
+2021-08-30T02:42:59+00:00 CRITICAL Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php:16
+Stack trace:
+#0 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php(16): in_array('http://localhos...', NULL)
+#1 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(301): SpeedBooster\SBP_Warmup_Process->task(Array)
+#2 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(449): WP_Background_Process->handle()
+#3 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#4 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#6 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-cron.php(138): do_action_ref_array('wp_warmup_cron', Array)
+#7 {main}
+  thrown in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php on line 16
+
+2021-08-30T02:46:57+00:00 CRITICAL Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php:16
+Stack trace:
+#0 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php(16): in_array('http://localhos...', NULL)
+#1 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(301): SpeedBooster\SBP_Warmup_Process->task(Array)
+#2 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(449): WP_Background_Process->handle()
+#3 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#4 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#6 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-cron.php(138): do_action_ref_array('wp_warmup_cron', Array)
+#7 {main}
+  thrown in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php on line 16
+
+2021-08-30T02:51:59+00:00 CRITICAL Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php:16
+Stack trace:
+#0 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php(16): in_array('http://localhos...', NULL)
+#1 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(301): SpeedBooster\SBP_Warmup_Process->task(Array)
+#2 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(449): WP_Background_Process->handle()
+#3 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#4 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#6 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-cron.php(138): do_action_ref_array('wp_warmup_cron', Array)
+#7 {main}
+  thrown in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php on line 16
+
+2021-08-30T02:57:44+00:00 CRITICAL Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php:16
+Stack trace:
+#0 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php(16): in_array('http://localhos...', NULL)
+#1 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(301): SpeedBooster\SBP_Warmup_Process->task(Array)
+#2 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(449): WP_Background_Process->handle()
+#3 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#4 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#6 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-cron.php(138): do_action_ref_array('wp_warmup_cron', Array)
+#7 {main}
+  thrown in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php on line 16
+
+2021-08-30T03:01:57+00:00 CRITICAL Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php:16
+Stack trace:
+#0 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php(16): in_array('http://localhos...', NULL)
+#1 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(301): SpeedBooster\SBP_Warmup_Process->task(Array)
+#2 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(449): WP_Background_Process->handle()
+#3 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#4 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#6 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-cron.php(138): do_action_ref_array('wp_warmup_cron', Array)
+#7 {main}
+  thrown in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php on line 16
+
+2021-08-30T03:08:08+00:00 CRITICAL Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php:16
+Stack trace:
+#0 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php(16): in_array('http://localhos...', NULL)
+#1 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(301): SpeedBooster\SBP_Warmup_Process->task(Array)
+#2 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(449): WP_Background_Process->handle()
+#3 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#4 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#6 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-cron.php(138): do_action_ref_array('wp_warmup_cron', Array)
+#7 {main}
+  thrown in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php on line 16
+
+2021-08-30T03:12:04+00:00 CRITICAL Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php:16
+Stack trace:
+#0 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php(16): in_array('http://localhos...', NULL)
+#1 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(301): SpeedBooster\SBP_Warmup_Process->task(Array)
+#2 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(449): WP_Background_Process->handle()
+#3 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#4 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#6 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-cron.php(138): do_action_ref_array('wp_warmup_cron', Array)
+#7 {main}
+  thrown in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php on line 16
+
+2021-08-30T03:18:02+00:00 CRITICAL Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php:16
+Stack trace:
+#0 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php(16): in_array('http://localhos...', NULL)
+#1 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(301): SpeedBooster\SBP_Warmup_Process->task(Array)
+#2 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(449): WP_Background_Process->handle()
+#3 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#4 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#6 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-cron.php(138): do_action_ref_array('wp_warmup_cron', Array)
+#7 {main}
+  thrown in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php on line 16
+
+2021-08-30T03:22:59+00:00 CRITICAL Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php:16
+Stack trace:
+#0 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php(16): in_array('http://localhos...', NULL)
+#1 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(301): SpeedBooster\SBP_Warmup_Process->task(Array)
+#2 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(449): WP_Background_Process->handle()
+#3 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#4 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#6 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-cron.php(138): do_action_ref_array('wp_warmup_cron', Array)
+#7 {main}
+  thrown in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php on line 16
+
+2021-08-30T03:24:56+00:00 CRITICAL Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php:16
+Stack trace:
+#0 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php(16): in_array('http://localhos...', NULL)
+#1 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(301): SpeedBooster\SBP_Warmup_Process->task(Array)
+#2 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(175): WP_Background_Process->handle()
+#3 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): WP_Background_Process->maybe_handle('')
+#4 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#6 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(187): do_action('wp_ajax_wp_warm...')
+#7 {main}
+  thrown in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php on line 16
+
+2021-08-30T03:26:57+00:00 CRITICAL Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php:16
+Stack trace:
+#0 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php(16): in_array('http://localhos...', NULL)
+#1 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(301): SpeedBooster\SBP_Warmup_Process->task(Array)
+#2 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(449): WP_Background_Process->handle()
+#3 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#4 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#6 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-cron.php(138): do_action_ref_array('wp_warmup_cron', Array)
+#7 {main}
+  thrown in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php on line 16
+
+2021-08-30T03:33:23+00:00 CRITICAL Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php:16
+Stack trace:
+#0 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php(16): in_array('http://localhos...', NULL)
+#1 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(301): SpeedBooster\SBP_Warmup_Process->task(Array)
+#2 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(449): WP_Background_Process->handle()
+#3 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#4 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#6 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-cron.php(138): do_action_ref_array('wp_warmup_cron', Array)
+#7 {main}
+  thrown in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php on line 16
+
+2021-08-30T03:37:02+00:00 CRITICAL Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php:16
+Stack trace:
+#0 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php(16): in_array('http://localhos...', NULL)
+#1 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(301): SpeedBooster\SBP_Warmup_Process->task(Array)
+#2 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(449): WP_Background_Process->handle()
+#3 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#4 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#6 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-cron.php(138): do_action_ref_array('wp_warmup_cron', Array)
+#7 {main}
+  thrown in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php on line 16
+
+2021-08-30T03:42:06+00:00 CRITICAL Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php:16
+Stack trace:
+#0 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php(16): in_array('http://localhos...', NULL)
+#1 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(301): SpeedBooster\SBP_Warmup_Process->task(Array)
+#2 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(449): WP_Background_Process->handle()
+#3 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#4 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#6 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-cron.php(138): do_action_ref_array('wp_warmup_cron', Array)
+#7 {main}
+  thrown in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php on line 16
+
+2021-08-30T03:48:30+00:00 CRITICAL Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php:16
+Stack trace:
+#0 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php(16): in_array('http://localhos...', NULL)
+#1 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(301): SpeedBooster\SBP_Warmup_Process->task(Array)
+#2 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(449): WP_Background_Process->handle()
+#3 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#4 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#6 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-cron.php(138): do_action_ref_array('wp_warmup_cron', Array)
+#7 {main}
+  thrown in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php on line 16
+
+2021-08-30T03:52:33+00:00 CRITICAL Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php:16
+Stack trace:
+#0 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php(16): in_array('http://localhos...', NULL)
+#1 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(301): SpeedBooster\SBP_Warmup_Process->task(Array)
+#2 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(449): WP_Background_Process->handle()
+#3 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#4 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#6 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-cron.php(138): do_action_ref_array('wp_warmup_cron', Array)
+#7 {main}
+  thrown in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php on line 16
+
+2021-08-30T03:57:19+00:00 CRITICAL Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php:16
+Stack trace:
+#0 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php(16): in_array('http://localhos...', NULL)
+#1 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(301): SpeedBooster\SBP_Warmup_Process->task(Array)
+#2 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(449): WP_Background_Process->handle()
+#3 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#4 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#6 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-cron.php(138): do_action_ref_array('wp_warmup_cron', Array)
+#7 {main}
+  thrown in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php on line 16
+
+2021-08-30T04:02:24+00:00 CRITICAL Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php:16
+Stack trace:
+#0 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php(16): in_array('http://localhos...', NULL)
+#1 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(301): SpeedBooster\SBP_Warmup_Process->task(Array)
+#2 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(449): WP_Background_Process->handle()
+#3 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#4 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#6 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-cron.php(138): do_action_ref_array('wp_warmup_cron', Array)
+#7 {main}
+  thrown in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php on line 16
+
+2021-08-30T04:07:34+00:00 CRITICAL Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php:16
+Stack trace:
+#0 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php(16): in_array('http://localhos...', NULL)
+#1 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(301): SpeedBooster\SBP_Warmup_Process->task(Array)
+#2 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(449): WP_Background_Process->handle()
+#3 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#4 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#6 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-cron.php(138): do_action_ref_array('wp_warmup_cron', Array)
+#7 {main}
+  thrown in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php on line 16
+
+2021-08-30T04:11:46+00:00 CRITICAL Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php:16
+Stack trace:
+#0 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php(16): in_array('http://localhos...', NULL)
+#1 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(301): SpeedBooster\SBP_Warmup_Process->task(Array)
+#2 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(449): WP_Background_Process->handle()
+#3 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#4 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#6 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-cron.php(138): do_action_ref_array('wp_warmup_cron', Array)
+#7 {main}
+  thrown in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php on line 16
+
+2021-08-30T04:17:36+00:00 CRITICAL Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php:16
+Stack trace:
+#0 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php(16): in_array('http://localhos...', NULL)
+#1 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(301): SpeedBooster\SBP_Warmup_Process->task(Array)
+#2 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(449): WP_Background_Process->handle()
+#3 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#4 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#6 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-cron.php(138): do_action_ref_array('wp_warmup_cron', Array)
+#7 {main}
+  thrown in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php on line 16
+
+2021-08-30T04:21:39+00:00 CRITICAL Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php:16
+Stack trace:
+#0 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php(16): in_array('http://localhos...', NULL)
+#1 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(301): SpeedBooster\SBP_Warmup_Process->task(Array)
+#2 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(449): WP_Background_Process->handle()
+#3 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#4 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#6 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-cron.php(138): do_action_ref_array('wp_warmup_cron', Array)
+#7 {main}
+  thrown in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php on line 16
+
+2021-08-30T04:26:40+00:00 CRITICAL Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php:16
+Stack trace:
+#0 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php(16): in_array('http://localhos...', NULL)
+#1 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(301): SpeedBooster\SBP_Warmup_Process->task(Array)
+#2 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(449): WP_Background_Process->handle()
+#3 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#4 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#6 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-cron.php(138): do_action_ref_array('wp_warmup_cron', Array)
+#7 {main}
+  thrown in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php on line 16
+
+2021-08-30T04:32:45+00:00 CRITICAL Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php:16
+Stack trace:
+#0 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php(16): in_array('http://localhos...', NULL)
+#1 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(301): SpeedBooster\SBP_Warmup_Process->task(Array)
+#2 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(449): WP_Background_Process->handle()
+#3 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#4 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#6 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-cron.php(138): do_action_ref_array('wp_warmup_cron', Array)
+#7 {main}
+  thrown in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php on line 16
+
+2021-08-30T04:36:47+00:00 CRITICAL Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php:16
+Stack trace:
+#0 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php(16): in_array('http://localhos...', NULL)
+#1 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(301): SpeedBooster\SBP_Warmup_Process->task(Array)
+#2 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(449): WP_Background_Process->handle()
+#3 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#4 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#6 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-cron.php(138): do_action_ref_array('wp_warmup_cron', Array)
+#7 {main}
+  thrown in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php on line 16
+
+2021-08-30T04:41:44+00:00 CRITICAL Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php:16
+Stack trace:
+#0 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php(16): in_array('http://localhos...', NULL)
+#1 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(301): SpeedBooster\SBP_Warmup_Process->task(Array)
+#2 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(449): WP_Background_Process->handle()
+#3 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#4 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#6 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-cron.php(138): do_action_ref_array('wp_warmup_cron', Array)
+#7 {main}
+  thrown in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php on line 16
+
+2021-08-30T04:46:31+00:00 CRITICAL Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php:16
+Stack trace:
+#0 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php(16): in_array('http://localhos...', NULL)
+#1 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(301): SpeedBooster\SBP_Warmup_Process->task(Array)
+#2 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(175): WP_Background_Process->handle()
+#3 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): WP_Background_Process->maybe_handle('')
+#4 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#6 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(187): do_action('wp_ajax_wp_warm...')
+#7 {main}
+  thrown in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php on line 16
+
+2021-08-30T04:47:44+00:00 CRITICAL Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php:16
+Stack trace:
+#0 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php(16): in_array('http://localhos...', NULL)
+#1 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(301): SpeedBooster\SBP_Warmup_Process->task(Array)
+#2 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(175): WP_Background_Process->handle()
+#3 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): WP_Background_Process->maybe_handle('')
+#4 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#6 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(187): do_action('wp_ajax_wp_warm...')
+#7 {main}
+  thrown in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php on line 16
+
+2021-08-30T04:49:25+00:00 CRITICAL Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php:16
+Stack trace:
+#0 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php(16): in_array('http://localhos...', NULL)
+#1 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(301): SpeedBooster\SBP_Warmup_Process->task(Array)
+#2 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(175): WP_Background_Process->handle()
+#3 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): WP_Background_Process->maybe_handle('')
+#4 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#6 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(187): do_action('wp_ajax_wp_warm...')
+#7 {main}
+  thrown in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php on line 16
+
+2021-08-30T04:50:54+00:00 CRITICAL Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php:16
+Stack trace:
+#0 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php(16): in_array('http://localhos...', NULL)
+#1 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(301): SpeedBooster\SBP_Warmup_Process->task(Array)
+#2 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(175): WP_Background_Process->handle()
+#3 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): WP_Background_Process->maybe_handle('')
+#4 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#6 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(187): do_action('wp_ajax_wp_warm...')
+#7 {main}
+  thrown in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php on line 16
+
+2021-08-30T04:51:57+00:00 CRITICAL Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php:16
+Stack trace:
+#0 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php(16): in_array('http://localhos...', NULL)
+#1 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(301): SpeedBooster\SBP_Warmup_Process->task(Array)
+#2 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(175): WP_Background_Process->handle()
+#3 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): WP_Background_Process->maybe_handle('')
+#4 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#6 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(187): do_action('wp_ajax_wp_warm...')
+#7 {main}
+  thrown in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php on line 16
+
+2021-08-30T04:55:53+00:00 CRITICAL Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php:16
+Stack trace:
+#0 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php(16): in_array('http://localhos...', NULL)
+#1 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(301): SpeedBooster\SBP_Warmup_Process->task(Array)
+#2 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(175): WP_Background_Process->handle()
+#3 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): WP_Background_Process->maybe_handle('')
+#4 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#6 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(187): do_action('wp_ajax_wp_warm...')
+#7 {main}
+  thrown in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php on line 16
+
+2021-08-30T04:56:58+00:00 CRITICAL Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php:16
+Stack trace:
+#0 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php(16): in_array('http://localhos...', NULL)
+#1 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(301): SpeedBooster\SBP_Warmup_Process->task(Array)
+#2 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(449): WP_Background_Process->handle()
+#3 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#4 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#6 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-cron.php(138): do_action_ref_array('wp_warmup_cron', Array)
+#7 {main}
+  thrown in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php on line 16
+
+2021-08-30T04:58:55+00:00 CRITICAL Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php:16
+Stack trace:
+#0 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php(16): in_array('http://localhos...', NULL)
+#1 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(301): SpeedBooster\SBP_Warmup_Process->task(Array)
+#2 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(175): WP_Background_Process->handle()
+#3 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): WP_Background_Process->maybe_handle('')
+#4 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#6 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(187): do_action('wp_ajax_wp_warm...')
+#7 {main}
+  thrown in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php on line 16
+
+2021-08-30T05:01:06+00:00 CRITICAL Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php:16
+Stack trace:
+#0 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php(16): in_array('http://localhos...', NULL)
+#1 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(301): SpeedBooster\SBP_Warmup_Process->task(Array)
+#2 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(175): WP_Background_Process->handle()
+#3 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): WP_Background_Process->maybe_handle('')
+#4 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#6 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(187): do_action('wp_ajax_wp_warm...')
+#7 {main}
+  thrown in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php on line 16
+
+2021-08-30T05:02:42+00:00 CRITICAL Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php:16
+Stack trace:
+#0 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php(16): in_array('http://localhos...', NULL)
+#1 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(301): SpeedBooster\SBP_Warmup_Process->task(Array)
+#2 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(175): WP_Background_Process->handle()
+#3 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): WP_Background_Process->maybe_handle('')
+#4 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#6 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(187): do_action('wp_ajax_wp_warm...')
+#7 {main}
+  thrown in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php on line 16
+
+2021-08-30T06:37:14+00:00 CRITICAL Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php:16
+Stack trace:
+#0 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php(16): in_array('http://localhos...', NULL)
+#1 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(301): SpeedBooster\SBP_Warmup_Process->task(Array)
+#2 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(449): WP_Background_Process->handle()
+#3 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#4 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#6 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-cron.php(138): do_action_ref_array('wp_warmup_cron', Array)
+#7 {main}
+  thrown in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php on line 16
+
+2021-08-30T06:43:19+00:00 CRITICAL Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php:16
+Stack trace:
+#0 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php(16): in_array('http://localhos...', NULL)
+#1 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(301): SpeedBooster\SBP_Warmup_Process->task(Array)
+#2 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(449): WP_Background_Process->handle()
+#3 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#4 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#6 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-cron.php(138): do_action_ref_array('wp_warmup_cron', Array)
+#7 {main}
+  thrown in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php on line 16
+
+2021-08-30T06:47:15+00:00 CRITICAL Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php:16
+Stack trace:
+#0 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php(16): in_array('http://localhos...', NULL)
+#1 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(301): SpeedBooster\SBP_Warmup_Process->task(Array)
+#2 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(449): WP_Background_Process->handle()
+#3 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#4 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#6 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-cron.php(138): do_action_ref_array('wp_warmup_cron', Array)
+#7 {main}
+  thrown in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php on line 16
+
+2021-08-30T06:52:17+00:00 CRITICAL Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php:16
+Stack trace:
+#0 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php(16): in_array('http://localhos...', NULL)
+#1 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(301): SpeedBooster\SBP_Warmup_Process->task(Array)
+#2 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(449): WP_Background_Process->handle()
+#3 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#4 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#6 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-cron.php(138): do_action_ref_array('wp_warmup_cron', Array)
+#7 {main}
+  thrown in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php on line 16
+
+2021-08-30T06:55:10+00:00 CRITICAL Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php:16
+Stack trace:
+#0 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php(16): in_array('http://localhos...', NULL)
+#1 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(301): SpeedBooster\SBP_Warmup_Process->task(Array)
+#2 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(175): WP_Background_Process->handle()
+#3 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): WP_Background_Process->maybe_handle('')
+#4 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#6 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(187): do_action('wp_ajax_wp_warm...')
+#7 {main}
+  thrown in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php on line 16
+
+2021-08-30T06:57:20+00:00 CRITICAL Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php:16
+Stack trace:
+#0 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php(16): in_array('http://localhos...', NULL)
+#1 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(301): SpeedBooster\SBP_Warmup_Process->task(Array)
+#2 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(449): WP_Background_Process->handle()
+#3 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#4 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#6 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-cron.php(138): do_action_ref_array('wp_warmup_cron', Array)
+#7 {main}
+  thrown in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php on line 16
+
+2021-08-30T07:01:44+00:00 CRITICAL Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php:16
+Stack trace:
+#0 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php(16): in_array('http://localhos...', NULL)
+#1 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(301): SpeedBooster\SBP_Warmup_Process->task(Array)
+#2 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(449): WP_Background_Process->handle()
+#3 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#4 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#6 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-cron.php(138): do_action_ref_array('wp_warmup_cron', Array)
+#7 {main}
+  thrown in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php on line 16
+
+2021-08-30T07:06:44+00:00 CRITICAL Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php:16
+Stack trace:
+#0 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php(16): in_array('http://localhos...', NULL)
+#1 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(301): SpeedBooster\SBP_Warmup_Process->task(Array)
+#2 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(449): WP_Background_Process->handle()
+#3 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#4 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#6 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-cron.php(138): do_action_ref_array('wp_warmup_cron', Array)
+#7 {main}
+  thrown in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php on line 16
+
+2021-08-30T07:12:35+00:00 CRITICAL Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php:16
+Stack trace:
+#0 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php(16): in_array('http://localhos...', NULL)
+#1 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(301): SpeedBooster\SBP_Warmup_Process->task(Array)
+#2 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(449): WP_Background_Process->handle()
+#3 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#4 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#6 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-cron.php(138): do_action_ref_array('wp_warmup_cron', Array)
+#7 {main}
+  thrown in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php on line 16
+
+2021-08-30T07:15:48+00:00 CRITICAL Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php:16
+Stack trace:
+#0 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php(16): in_array('http://localhos...', NULL)
+#1 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(301): SpeedBooster\SBP_Warmup_Process->task(Array)
+#2 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(175): WP_Background_Process->handle()
+#3 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): WP_Background_Process->maybe_handle('')
+#4 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#6 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(187): do_action('wp_ajax_wp_warm...')
+#7 {main}
+  thrown in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php on line 16
+
+2021-08-30T07:16:52+00:00 CRITICAL Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php:16
+Stack trace:
+#0 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php(16): in_array('http://localhos...', NULL)
+#1 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(301): SpeedBooster\SBP_Warmup_Process->task(Array)
+#2 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(449): WP_Background_Process->handle()
+#3 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#4 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#6 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-cron.php(138): do_action_ref_array('wp_warmup_cron', Array)
+#7 {main}
+  thrown in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php on line 16
+
+2021-08-30T07:21:41+00:00 CRITICAL Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php:16
+Stack trace:
+#0 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php(16): in_array('http://localhos...', NULL)
+#1 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(301): SpeedBooster\SBP_Warmup_Process->task(Array)
+#2 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(449): WP_Background_Process->handle()
+#3 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#4 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#6 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-cron.php(138): do_action_ref_array('wp_warmup_cron', Array)
+#7 {main}
+  thrown in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php on line 16
+
+2021-08-30T07:23:16+00:00 CRITICAL Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php:16
+Stack trace:
+#0 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php(16): in_array('http://localhos...', NULL)
+#1 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(301): SpeedBooster\SBP_Warmup_Process->task(Array)
+#2 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(175): WP_Background_Process->handle()
+#3 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): WP_Background_Process->maybe_handle('')
+#4 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#6 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(187): do_action('wp_ajax_wp_warm...')
+#7 {main}
+  thrown in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php on line 16
+
+2021-08-30T07:24:54+00:00 CRITICAL Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php:16
+Stack trace:
+#0 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php(16): in_array('http://localhos...', NULL)
+#1 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(301): SpeedBooster\SBP_Warmup_Process->task(Array)
+#2 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(175): WP_Background_Process->handle()
+#3 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): WP_Background_Process->maybe_handle('')
+#4 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#6 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(187): do_action('wp_ajax_wp_warm...')
+#7 {main}
+  thrown in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php on line 16
+
+2021-08-30T07:25:57+00:00 CRITICAL Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php:16
+Stack trace:
+#0 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php(16): in_array('http://localhos...', NULL)
+#1 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(301): SpeedBooster\SBP_Warmup_Process->task(Array)
+#2 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(175): WP_Background_Process->handle()
+#3 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): WP_Background_Process->maybe_handle('')
+#4 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#6 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(187): do_action('wp_ajax_wp_warm...')
+#7 {main}
+  thrown in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php on line 16
+
+2021-08-30T07:27:48+00:00 CRITICAL Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php:16
+Stack trace:
+#0 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php(16): in_array('http://localhos...', NULL)
+#1 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(301): SpeedBooster\SBP_Warmup_Process->task(Array)
+#2 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(175): WP_Background_Process->handle()
+#3 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): WP_Background_Process->maybe_handle('')
+#4 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#6 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(187): do_action('wp_ajax_wp_warm...')
+#7 {main}
+  thrown in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php on line 16
+
+2021-08-30T07:29:22+00:00 CRITICAL Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php:16
+Stack trace:
+#0 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php(16): in_array('http://localhos...', NULL)
+#1 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(301): SpeedBooster\SBP_Warmup_Process->task(Array)
+#2 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(175): WP_Background_Process->handle()
+#3 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): WP_Background_Process->maybe_handle('')
+#4 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#6 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(187): do_action('wp_ajax_wp_warm...')
+#7 {main}
+  thrown in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php on line 16
+
+2021-08-30T07:30:58+00:00 CRITICAL Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php:16
+Stack trace:
+#0 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php(16): in_array('http://localhos...', NULL)
+#1 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(301): SpeedBooster\SBP_Warmup_Process->task(Array)
+#2 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(175): WP_Background_Process->handle()
+#3 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): WP_Background_Process->maybe_handle('')
+#4 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#6 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(187): do_action('wp_ajax_wp_warm...')
+#7 {main}
+  thrown in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php on line 16
+
+2021-08-30T07:32:06+00:00 CRITICAL Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php:16
+Stack trace:
+#0 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php(16): in_array('http://localhos...', NULL)
+#1 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(301): SpeedBooster\SBP_Warmup_Process->task(Array)
+#2 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(449): WP_Background_Process->handle()
+#3 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#4 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#6 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-cron.php(138): do_action_ref_array('wp_warmup_cron', Array)
+#7 {main}
+  thrown in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php on line 16
+
+2021-08-30T07:33:24+00:00 CRITICAL Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php:16
+Stack trace:
+#0 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php(16): in_array('http://localhos...', NULL)
+#1 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(301): SpeedBooster\SBP_Warmup_Process->task(Array)
+#2 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(175): WP_Background_Process->handle()
+#3 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): WP_Background_Process->maybe_handle('')
+#4 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#6 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(187): do_action('wp_ajax_wp_warm...')
+#7 {main}
+  thrown in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php on line 16
+
+2021-08-30T07:34:27+00:00 CRITICAL Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php:16
+Stack trace:
+#0 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php(16): in_array('http://localhos...', NULL)
+#1 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(301): SpeedBooster\SBP_Warmup_Process->task(Array)
+#2 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(175): WP_Background_Process->handle()
+#3 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): WP_Background_Process->maybe_handle('')
+#4 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#6 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(187): do_action('wp_ajax_wp_warm...')
+#7 {main}
+  thrown in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php on line 16
+
+2021-08-30T07:36:03+00:00 CRITICAL Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php:16
+Stack trace:
+#0 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php(16): in_array('http://localhos...', NULL)
+#1 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(301): SpeedBooster\SBP_Warmup_Process->task(Array)
+#2 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(175): WP_Background_Process->handle()
+#3 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): WP_Background_Process->maybe_handle('')
+#4 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#6 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(187): do_action('wp_ajax_wp_warm...')
+#7 {main}
+  thrown in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php on line 16
+
+2021-08-30T07:37:13+00:00 CRITICAL Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php:16
+Stack trace:
+#0 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php(16): in_array('http://localhos...', NULL)
+#1 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(301): SpeedBooster\SBP_Warmup_Process->task(Array)
+#2 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(175): WP_Background_Process->handle()
+#3 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): WP_Background_Process->maybe_handle('')
+#4 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#6 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(187): do_action('wp_ajax_wp_warm...')
+#7 {main}
+  thrown in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php on line 16
+
+2021-08-30T07:38:14+00:00 CRITICAL Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php:16
+Stack trace:
+#0 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php(16): in_array('http://localhos...', NULL)
+#1 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(301): SpeedBooster\SBP_Warmup_Process->task(Array)
+#2 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(175): WP_Background_Process->handle()
+#3 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): WP_Background_Process->maybe_handle('')
+#4 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#6 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(187): do_action('wp_ajax_wp_warm...')
+#7 {main}
+  thrown in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php on line 16
+
+2021-08-30T07:39:20+00:00 CRITICAL Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php:16
+Stack trace:
+#0 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php(16): in_array('http://localhos...', NULL)
+#1 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(301): SpeedBooster\SBP_Warmup_Process->task(Array)
+#2 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(175): WP_Background_Process->handle()
+#3 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): WP_Background_Process->maybe_handle('')
+#4 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#6 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(187): do_action('wp_ajax_wp_warm...')
+#7 {main}
+  thrown in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php on line 16
+
+2021-08-30T07:40:45+00:00 CRITICAL Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php:16
+Stack trace:
+#0 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php(16): in_array('http://localhos...', NULL)
+#1 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(301): SpeedBooster\SBP_Warmup_Process->task(Array)
+#2 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(175): WP_Background_Process->handle()
+#3 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): WP_Background_Process->maybe_handle('')
+#4 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#6 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(187): do_action('wp_ajax_wp_warm...')
+#7 {main}
+  thrown in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php on line 16
+
+2021-08-30T07:41:49+00:00 CRITICAL Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php:16
+Stack trace:
+#0 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php(16): in_array('http://localhos...', NULL)
+#1 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(301): SpeedBooster\SBP_Warmup_Process->task(Array)
+#2 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(175): WP_Background_Process->handle()
+#3 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): WP_Background_Process->maybe_handle('')
+#4 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#6 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(187): do_action('wp_ajax_wp_warm...')
+#7 {main}
+  thrown in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php on line 16
+
+2021-08-30T07:42:56+00:00 CRITICAL Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php:16
+Stack trace:
+#0 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php(16): in_array('http://localhos...', NULL)
+#1 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(301): SpeedBooster\SBP_Warmup_Process->task(Array)
+#2 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(175): WP_Background_Process->handle()
+#3 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): WP_Background_Process->maybe_handle('')
+#4 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#6 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(187): do_action('wp_ajax_wp_warm...')
+#7 {main}
+  thrown in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php on line 16
+
+2021-08-30T07:44:09+00:00 CRITICAL Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php:16
+Stack trace:
+#0 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php(16): in_array('http://localhos...', NULL)
+#1 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(301): SpeedBooster\SBP_Warmup_Process->task(Array)
+#2 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(175): WP_Background_Process->handle()
+#3 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): WP_Background_Process->maybe_handle('')
+#4 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#6 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(187): do_action('wp_ajax_wp_warm...')
+#7 {main}
+  thrown in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php on line 16
+
+2021-08-30T09:17:16+00:00 CRITICAL Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php:16
+Stack trace:
+#0 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php(16): in_array('http://localhos...', NULL)
+#1 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(301): SpeedBooster\SBP_Warmup_Process->task(Array)
+#2 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(449): WP_Background_Process->handle()
+#3 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#4 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#6 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-cron.php(138): do_action_ref_array('wp_warmup_cron', Array)
+#7 {main}
+  thrown in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php on line 16
+
