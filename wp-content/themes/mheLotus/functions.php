@@ -1,120 +1,94 @@
 <?php
 /**
- * mheLotus functions and definitions
- *
- * @link https://developer.wordpress.org/themes/basics/theme-functions/
- *
- * @package mheLotus
- */
-
-if ( ! defined( '_S_VERSION' ) ) {
-	// Replace the version number of the theme on each release.
-	define( '_S_VERSION', '1.0.0' );
-}
-
-if ( ! function_exists( 'mhelotus_setup' ) ) :
-	/**
-	 * Sets up theme defaults and registers support for various WordPress features.
-	 *
-	 * Note that this function is hooked into the after_setup_theme hook, which
-	 * runs before the init hook. The init hook is too late for some features, such
-	 * as indicating support for post thumbnails.
-	 */
-	function mhelotus_setup() {
-		/*
-		 * Make theme available for translation.
-		 * Translations can be filed in the /languages/ directory.
-		 * If you're building a theme based on mheLotus, use a find and replace
-		 * to change 'mhelotus' to the name of your theme in all the template files.
-		 */
-		load_theme_textdomain( 'mhelotus', get_template_directory() . '/languages' );
-
-		// Add default posts and comments RSS feed links to head.
-		add_theme_support( 'automatic-feed-links' );
-
-		/*
-		 * Let WordPress manage the document title.
-		 * By adding theme support, we declare that this theme does not use a
-		 * hard-coded <title> tag in the document head, and expect WordPress to
-		 * provide it for us.
-		 */
-		add_theme_support( 'title-tag' );
-
-		/*
-		 * Enable support for Post Thumbnails on posts and pages.
-		 *
-		 * @link https://developer.wordpress.org/themes/functionality/featured-images-post-thumbnails/
-		 */
-		add_theme_support( 'post-thumbnails' );
-
-		// This theme uses wp_nav_menu() in one location.
-		register_nav_menus(
-			array(
-				'menu-1' => esc_html__( 'Primary', 'mhelotus' ),
-			)
-		);
-
-		/*
-		 * Switch default core markup for search form, comment form, and comments
-		 * to output valid HTML5.
-		 */
-		add_theme_support(
-			'html5',
-			array(
-				'search-form',
-				'comment-form',
-				'comment-list',
-				'gallery',
-				'caption',
-				'style',
-				'script',
-			)
-		);
-
-		// Set up the WordPress core custom background feature.
-		add_theme_support(
-			'custom-background',
-			apply_filters(
-				'mhelotus_custom_background_args',
-				array(
-					'default-color' => 'ffffff',
-					'default-image' => '',
-				)
-			)
-		);
-
-		// Add theme support for selective refresh for widgets.
-		add_theme_support( 'customize-selective-refresh-widgets' );
-
-		/**
-		 * Add support for core custom logo.
-		 *
-		 * @link https://codex.wordpress.org/Theme_Logo
-		 */
-		add_theme_support(
-			'custom-logo',
-			array(
-				'height'      => 250,
-				'width'       => 250,
-				'flex-width'  => true,
-				'flex-height' => true,
-			)
-		);
-	}
-endif;
-add_action( 'after_setup_theme', 'mhelotus_setup' );
+  * @ Thiết lập các hằng dữ liệu quan trọng
+  * @ THEME_URL = get_stylesheet_directory() – đường dẫn tới thư mục theme
+  * @ CORE = thư mục /core của theme, chứa các file nguồn quan trọng.
+  **/
+  define( 'THEME_URL', get_stylesheet_directory() );
+  define( 'CORE', THEME_URL . '/core' );
+  
+  if ( ! defined( '_S_VERSION' ) ) {
+    // Replace the version number of the theme on each release.
+    define( '_S_VERSION', '1.0.0' );
+  }
 
 /**
- * Set the content width in pixels, based on the theme's design and stylesheet.
- *
- * Priority 0 to make it available to lower priority callbacks.
- *
- * @global int $content_width
- */
-function mhelotus_content_width() {
-	$GLOBALS['content_width'] = apply_filters( 'mhelotus_content_width', 640 );
+  * @ Load file /core/init.php
+  * @ Đây là file cấu hình ban đầu của theme mà sẽ không nên được thay đổi sau này.
+  **/
+
+
+  require_once( CORE . '/init.php' );
+
+
+ /**
+  * @ Thiết lập $content_width để khai báo kích thước chiều rộng của nội dung
+  **/
+  if ( ! isset( $content_width ) ) {
+  	/*
+  	 * Nếu biến $content_width chưa có dữ liệu thì gán giá trị cho nó
+  	 */
+  	$content_width = 1200;
+   }
+
+
+/**
+  * @ Thiết lập các chức năng sẽ được theme hỗ trợ
+  **/
+if ( ! function_exists( 'mhe_theme_setup' ) ) {
+  	/*
+  	 * Nếu chưa có hàm mhe_theme_setup() thì sẽ tạo mới hàm đó
+  	 */
+  	function mhe_theme_setup() {
+  		/*
+  		 * Thiết lập theme có thể dịch được
+  		 */
+  		$language_folder = THEME_URL . '/languages';
+  		load_theme_textdomain( 'mheLotus', $language_folder );
+
+
+        /*
+  		 * Thêm CSS, JS
+  		 */
+        wp_enqueue_style('style', get_stylesheet_uri(), NULL, microtime(), 'all');
+        wp_enqueue_style('fontawesome', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css');
+        wp_enqueue_style('bootstrap', 'https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css');
+
+        wp_enqueue_script('script', get_theme_file_uri('./JS/script.js'), NULL, microtime(), true);
+        wp_enqueue_script('jquery', 'https://code.jquery.com/jquery-3.3.1.min.js', NULL, microtime(), true);
+        wp_enqueue_script('jquery', 'https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js', NULL, microtime(), true);
+        wp_enqueue_script('popper', 'https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js', NULL, microtime(), true);
+        wp_enqueue_script('bootstrap', 'https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js', NULL, microtime(), true);
+        
+
+
+
+  		/*
+  		 * Thêm chức năng title-tag để tự thêm <title>
+  		 */
+  		add_theme_support( 'title-tag' );
+
+  		/*
+  		 * Thêm chức năng post format
+  		 */
+  		add_theme_support( 'post-formats',
+  			array(
+  				'video',
+  				'image',
+  				'audio',
+  				'gallery'
+  			)
+  		 );
+
+        /*
+         * Tạo menu cho theme
+         */
+        register_nav_menu ( 'primary-menu', __('Main Menu', 'mhe') );
+
+
+  	}
+  	add_action ( 'init', 'mhe_theme_setup' );
 }
-add_action( 'after_setup_theme', 'mhelotus_content_width', 0 );
 
 /**
  * Register widget area.
@@ -136,20 +110,7 @@ function mhelotus_widgets_init() {
 }
 add_action( 'widgets_init', 'mhelotus_widgets_init' );
 
-/**
- * Enqueue scripts and styles.
- */
-function mhelotus_scripts() {
-	wp_enqueue_style( 'mhelotus-style', get_stylesheet_uri(), array(), _S_VERSION );
-	wp_style_add_data( 'mhelotus-style', 'rtl', 'replace' );
 
-	wp_enqueue_script( 'mhelotus-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );
-
-	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
-		wp_enqueue_script( 'comment-reply' );
-	}
-}
-add_action( 'wp_enqueue_scripts', 'mhelotus_scripts' );
 
 /**
  * Implement the Custom Header feature.
@@ -178,3 +139,260 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
 
+
+/**
+ * Load Block * Admin
+ */
+
+add_theme_support( 'block-discovery' );
+function custom_discovery_post_type()
+{
+    $label = array(
+        'name' => 'Discovery home',
+        'discovery' => 'discovery'
+    );
+    $args = array(
+        'labels' => $label, //Gọi các label trong biến $label ở trên
+        'description' => 'Post type Discovery', //Mô tả của post type
+        'supports' => array(
+            'title',
+        ), //Các tính năng được hỗ trợ trong post type
+        'hierarchical' => false, //Cho phép phân cấp, nếu là false thì post type này giống như Post, false thì giống như Page
+        'public' => true, //Kích hoạt post type
+        'show_ui' => true, //Hiển thị khung quản trị như Post/Page
+        'show_in_menu' => true, //Hiển thị trên Admin Menu (tay trái)
+        'show_in_nav_menus' => true, //Hiển thị trong Appearance -> Menus
+        'show_in_admin_bar' => true, //Hiển thị trên thanh Admin bar màu đen.
+        'menu_position' => 11, //Thứ tự vị trí hiển thị trong menu (tay trái)
+        'menu_icon' => 'dashicons-format-image', //Đường dẫn tới icon sẽ hiển thị
+        'can_export' => true, //Có thể export nội dung bằng Tools -> Export
+        'has_archive' => true, //Cho phép lưu trữ (month, date, year)
+        'exclude_from_search' => true, //Loại bỏ khỏi kết quả tìm kiếm
+        'publicly_queryable' => true, //Hiển thị các tham số trong query, phải đặt true
+        'capability_type' => 'post' //
+    );
+    register_post_type('block-discovery', $args);
+}
+
+add_action('init', 'custom_discovery_post_type');
+
+/**
+ * Custom Field Function Block Discovery Admin
+ */
+
+if( function_exists('acf_add_local_field_group') ):
+
+	acf_add_local_field_group(array(
+		'key' => 'group_612c61942f1a4',
+		'title' => 'Discovery Home',
+		'fields' => array(
+			array(
+				'key' => 'field_612c61aa54bea',
+				'label' => 'Tiêu đề',
+				'name' => 'title_discovery',
+				'type' => 'wysiwyg',
+				'instructions' => '',
+				'required' => 1,
+				'conditional_logic' => 0,
+				'wrapper' => array(
+					'width' => '',
+					'class' => '',
+					'id' => '',
+				),
+				'invisible' => 0,
+				'only_front' => 0,
+				'hide_admin' => 0,
+				'default_value' => '',
+				'tabs' => 'all',
+				'toolbar' => 'full',
+				'media_upload' => 0,
+				'delay' => 0,
+			),
+			array(
+				'key' => 'field_612c61f154beb',
+				'label' => 'Mô tả',
+				'name' => 'desc_discovery',
+				'type' => 'wysiwyg',
+				'instructions' => '',
+				'required' => 1,
+				'conditional_logic' => 0,
+				'wrapper' => array(
+					'width' => '',
+					'class' => '',
+					'id' => '',
+				),
+				'invisible' => 0,
+				'only_front' => 0,
+				'hide_admin' => 0,
+				'default_value' => '',
+				'tabs' => 'all',
+				'toolbar' => 'full',
+				'media_upload' => 0,
+				'delay' => 0,
+			),
+			array(
+				'key' => 'field_612c621354bec',
+				'label' => 'Button',
+				'name' => 'button_discovery',
+				'type' => 'wysiwyg',
+				'instructions' => '',
+				'required' => 1,
+				'conditional_logic' => 0,
+				'wrapper' => array(
+					'width' => '',
+					'class' => '',
+					'id' => '',
+				),
+				'invisible' => 0,
+				'only_front' => 0,
+				'hide_admin' => 0,
+				'default_value' => '',
+				'tabs' => 'text',
+				'media_upload' => 0,
+				'toolbar' => 'full',
+				'delay' => 0,
+			),
+		),
+		'location' => array(
+			array(
+				array(
+					'param' => 'post_type',
+					'operator' => '==',
+					'value' => 'block-discovery',
+				),
+			),
+		),
+		'menu_order' => 0,
+		'position' => 'normal',
+		'style' => 'default',
+		'label_placement' => 'left',
+		'instruction_placement' => 'label',
+		'hide_on_screen' => '',
+		'active' => true,
+		'description' => '',
+		'acfe_display_title' => '',
+		'acfe_autosync' => array(
+			0 => 'php',
+		),
+		'acfe_form' => 0,
+		'acfe_meta' => '',
+		'acfe_note' => '',
+	));
+	
+	endif;
+/**
+ * Load Block About Admin
+ */
+
+add_theme_support( 'block-about' );
+function custom_about_post_type()
+{
+    $label = array(
+        'name' => 'About home',
+        'about' => 'about'
+    );
+    $args = array(
+        'labels' => $label, //Gọi các label trong biến $label ở trên
+        'description' => 'Post type About', //Mô tả của post type
+        'supports' => array(
+            'title',
+        ), //Các tính năng được hỗ trợ trong post type
+        'hierarchical' => false, //Cho phép phân cấp, nếu là false thì post type này giống như Post, false thì giống như Page
+        'public' => true, //Kích hoạt post type
+        'show_ui' => true, //Hiển thị khung quản trị như Post/Page
+        'show_in_menu' => true, //Hiển thị trên Admin Menu (tay trái)
+        'show_in_nav_menus' => true, //Hiển thị trong Appearance -> Menus
+        'show_in_admin_bar' => true, //Hiển thị trên thanh Admin bar màu đen.
+        'menu_position' => 11, //Thứ tự vị trí hiển thị trong menu (tay trái)
+        'menu_icon' => 'dashicons-format-image', //Đường dẫn tới icon sẽ hiển thị
+        'can_export' => true, //Có thể export nội dung bằng Tools -> Export
+        'has_archive' => true, //Cho phép lưu trữ (month, date, year)
+        'exclude_from_search' => true, //Loại bỏ khỏi kết quả tìm kiếm
+        'publicly_queryable' => true, //Hiển thị các tham số trong query, phải đặt true
+        'capability_type' => 'post' //
+    );
+    register_post_type('block-about', $args);
+}
+
+add_action('init', 'custom_about_post_type');
+
+/**
+ * Custom Field Function Block About Admin
+ */
+
+if( function_exists('acf_add_local_field_group') ):
+
+	acf_add_local_field_group(array(
+		'key' => 'group_612c66122a53c',
+		'title' => 'About Home',
+		'fields' => array(
+			array(
+				'key' => 'field_612c662150333',
+				'label' => 'Mô tả về chúng tôi',
+				'name' => 'desc_about',
+				'type' => 'wysiwyg',
+				'instructions' => '',
+				'required' => 1,
+				'conditional_logic' => 0,
+				'wrapper' => array(
+					'width' => '',
+					'class' => '',
+					'id' => '',
+				),
+				'invisible' => 0,
+				'only_front' => 0,
+				'hide_admin' => 0,
+				'default_value' => '',
+				'tabs' => 'all',
+				'toolbar' => 'full',
+				'media_upload' => 0,
+				'delay' => 0,
+			),
+			array(
+				'key' => 'field_612c664950334',
+				'label' => 'Button',
+				'name' => 'button_about',
+				'type' => 'wysiwyg',
+				'instructions' => '',
+				'required' => 1,
+				'conditional_logic' => 0,
+				'wrapper' => array(
+					'width' => '',
+					'class' => '',
+					'id' => '',
+				),
+				'invisible' => 0,
+				'only_front' => 0,
+				'hide_admin' => 0,
+				'default_value' => '',
+				'tabs' => 'text',
+				'media_upload' => 0,
+				'toolbar' => 'full',
+				'delay' => 0,
+			),
+		),
+		'location' => array(
+			array(
+				array(
+					'param' => 'post_type',
+					'operator' => '==',
+					'value' => 'block-about',
+				),
+			),
+		),
+		'menu_order' => 0,
+		'position' => 'normal',
+		'style' => 'default',
+		'label_placement' => 'left',
+		'instruction_placement' => 'label',
+		'hide_on_screen' => '',
+		'active' => true,
+		'description' => '',
+		'acfe_display_title' => '',
+		'acfe_autosync' => '',
+		'acfe_form' => 0,
+		'acfe_meta' => '',
+		'acfe_note' => '',
+	));
+	
+	endif;
