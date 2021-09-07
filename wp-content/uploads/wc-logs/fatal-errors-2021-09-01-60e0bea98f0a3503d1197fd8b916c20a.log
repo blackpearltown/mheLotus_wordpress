@@ -1,0 +1,24 @@
+2021-09-01T06:55:18+00:00 CRITICAL Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php:16
+Stack trace:
+#0 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php(16): in_array('http://localhos...', NULL)
+#1 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(301): SpeedBooster\SBP_Warmup_Process->task(Array)
+#2 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(449): WP_Background_Process->handle()
+#3 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#4 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#6 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-cron.php(138): do_action_ref_array('wp_warmup_cron', Array)
+#7 {main}
+  thrown in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php on line 16
+
+2021-09-01T13:56:01+00:00 CRITICAL Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php:16
+Stack trace:
+#0 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php(16): in_array('http://localhos...', NULL)
+#1 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(301): SpeedBooster\SBP_Warmup_Process->task(Array)
+#2 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\vendor\deliciousbrains\wp-background-processing\classes\wp-background-process.php(449): WP_Background_Process->handle()
+#3 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(303): WP_Background_Process->handle_cron_healthcheck()
+#4 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#6 D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-cron.php(138): do_action_ref_array('wp_warmup_cron', Array)
+#7 {main}
+  thrown in D:\Sana\Hoc Viec\xampp\htdocs\wordpress\wp-content\plugins\speed-booster-pack\includes\classes\class-sbp-warmup-process.php on line 16
+
